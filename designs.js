@@ -14,7 +14,7 @@ $("#sizePicker").submit(function(event){
 
 });
 
-//funcao que cria o grid que recebe parâmetros
+//
 function makeGrid(h, w) {
 
 	for (var line = 0; line < h; line++) {
@@ -32,6 +32,10 @@ function makeGrid(h, w) {
 $('#pixelCanvas').on('click', function(event){
 	//selecionando a cor
 	let color = $('#colorPicker').val();
+
 	//definindo a cor da célula
-	$(event.target).css('background-color', color);
+	if(event.target.nodeName.toLowerCase() === 'td'){
+		$(event.target).css('background-color', color);
+	}
+
 });
