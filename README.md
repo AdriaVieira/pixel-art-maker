@@ -7,10 +7,12 @@
 
 ## Instructions
 
-To get started, open `designs.js` and start building out the app's functionality.
+To get started, open `index.html`.
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+Choose the `Height` and `Width` and submit to create the grid.
+
+Choose the `color` and start painting.
 
 ## Contributing
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+A lot of research on Google Chrome.
