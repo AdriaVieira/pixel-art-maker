@@ -1,0 +1,7 @@
+function myFunction(event) {
+  var x = document.getElementById("inputHeight");
+  var defaultVal = x.defaultValue;
+  var currentVal = x.value;
+
+  console.log(currentVal)
+}
