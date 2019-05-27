@@ -15,4 +15,4 @@ Choose the `color` and start painting.
 
 ## Contributing
 
-A lot of research on Google Chrome.
+A lot of research on Google Chrome and Stack Overflow.
