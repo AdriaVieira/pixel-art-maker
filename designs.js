@@ -14,7 +14,7 @@ $("#sizePicker").submit(function(event){
 
 });
 
-//
+//essa funcao cria um loop que recebe como paramentos o height e o width fornecidos pelo usuário para assim criar o grid
 function makeGrid(h, w) {
 
 	for (var line = 0; line < h; line++) {
