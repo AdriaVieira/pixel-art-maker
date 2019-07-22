@@ -1,3 +1,6 @@
+let printed = [];
+let i = 0;
+
 //evento do botao enviar
 $("#sizePicker").submit(function(event){
 
@@ -37,5 +40,4 @@ $('#pixelCanvas').on('click', function(event){
 	if(event.target.nodeName.toLowerCase() === 'td'){
 		$(event.target).css('background-color', color);
 	}
-
 });
