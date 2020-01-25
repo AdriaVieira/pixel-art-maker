@@ -1,6 +1,3 @@
-let printed = [];
-let i = 0;
-
 //evento do botao enviar
 $("#sizePicker").submit(function(event){
 
@@ -37,7 +34,10 @@ $('#pixelCanvas').on('click', function(event){
 	let color = $('#colorPicker').val();
 
 	//definindo a cor da célula
-	if(event.target.nodeName.toLowerCase() === 'td'){
+	if(event.target.nodeName.toLowerCase() === 'td' && event.target.style.backgroundColor === ''){
+		console.log(event.target);
 		$(event.target).css('background-color', color);
+	} else {
+		$(event.target).css('background-color', '');
 	}
 });
