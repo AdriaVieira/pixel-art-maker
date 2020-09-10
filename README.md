@@ -2,11 +2,6 @@
 
 *This project was build to give people the chance to be creative. It's a pixer art maker where you can draw anything you want by clicking in the cells over the grid*
 
-## Table of Contents
-
-* [Instructions](#instructions)
-* [Contributing](#contributing)
-
 ## Instructions
 
 To get started, open `index.html`.
